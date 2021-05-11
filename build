@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build -t kubectl -t rwxrob/kubectl .
+docker push rwxrob/kubectl
